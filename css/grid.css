@@ -1,0 +1,41 @@
+.cajas{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+}
+
+.caja-1{
+    background-color: #B47CEB;
+    padding-top: 100px;
+    padding: 50px;
+    text-align: left;
+    align-self: end;
+    grid-area: 1/1/2/2;
+    border-radius: 6px;
+}
+
+.caja-2{
+    background-color: #5E7FEB;
+    grid-area: 2/3/1/2;
+    text-align: left;
+    border-radius: 6px;
+}
+
+.caja-3{
+    padding-top: 100px;
+    background-color: #5DCCE8;
+    grid-area: 3/3/2/2;
+    padding: 30px;
+    align-items: left;
+    border-radius: 6px;
+}
+
+.informacion p{
+    text-decoration: none;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
